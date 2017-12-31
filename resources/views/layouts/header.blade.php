@@ -78,8 +78,8 @@
                             </ul>
                         </li>
                     @else
-                        <li><a href="{{ url('login') }}" class="b">登录</a></li>
-                        <li><a href="{{ url('register') }}" class="b">注册</a></li>
+                        <li><a href="{{ url('login') }}" class="b-l">登录</a></li>
+                        <li><a href="{{ url('register') }}" class="b-r">注册</a></li>
                     @endif
                 </ul>
                 <form class="navbar-form navbar-right" role="search" method="get" action="{{ route('search') }}">
